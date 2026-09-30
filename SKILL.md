@@ -2,7 +2,11 @@
 name: kuaishou-opportunity-research
 description: 研究快手搜索结果、作品结构、达人数据和用户反馈，筛选值得继续验证的机会。当用户询问快手选题、快手增长或用户痛点时使用。支持三大能力：(1) 关键词搜索视频，可按点赞数、发布时间、视频时长筛选排序；(2) 达人作品抓取，按主页链接获取公开作品列表；(3) 视频评论分析，按视频链接获取评论内容与互动数据。
 license: MIT
-version: 1.0.0
+version: 1.0.1
+display_name: 快手机会研究
+display_name_en: KuaiShou Opportunity Research
+description_zh: 研究快手搜索结果、作品结构、达人数据和用户反馈，筛选值得继续验证的机会。当用户询问快手选题、快手增长或用户痛点时使用。
+description_en: Study KuaiShou search results, content structure, creator data and user feedback to screen opportunities worthy of further verification. Used when users inquire about Kwai content ideation, KuaiShou growth or user pain points.
 metadata:
   type: command
   runtime: "nodejs@16.14.0+"
@@ -289,7 +293,3 @@ metadata:
 如需开通 token 或获得使用支持，可优先通过官网处理：
 
 - 官网：[快手数据研究SKILL](https://www.guaikei.com)
-
-如需人工支持，可联系开发者：
-
-- 微信：`13395823479`（备注：快手技能）
